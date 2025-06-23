@@ -1,0 +1,110 @@
+2025-06-22 07:51:50 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 07:51:50 [http-nio-8087-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 07:55:42 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 07:55:42 [http-nio-8087-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 08:03:10 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-22 08:03:10 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, BearerTokenAuthenticationFilter, AuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-22 08:03:15 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 08:03:15 [http-nio-8087-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 08:03:15 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 08:03:15 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-06-22 08:03:15 [http-nio-8087-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 08:04:09 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-22 08:04:09 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, BearerTokenAuthenticationFilter, AuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-22 08:04:23 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 08:04:23 [http-nio-8087-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 08:04:23 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 08:04:23 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-06-22 08:04:23 [http-nio-8087-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 08:06:32 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-22 08:06:33 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, BearerTokenAuthenticationFilter, AuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-22 08:06:39 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 08:06:39 [http-nio-8087-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 08:06:39 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 08:38:27 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 08:38:27 [http-nio-8087-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 08:38:27 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 08:39:20 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 08:39:20 [http-nio-8087-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 08:39:20 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 08:39:20 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-06-22 08:39:20 [http-nio-8087-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 08:50:33 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 08:50:33 [http-nio-8087-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 08:50:33 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 08:50:33 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-06-22 08:50:33 [http-nio-8087-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 08:51:01 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-22 08:51:02 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, BearerTokenAuthenticationFilter, AuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-22 08:51:06 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 08:51:06 [http-nio-8087-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 08:51:06 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 09:14:04 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 09:14:04 [http-nio-8087-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 09:14:04 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 09:14:56 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 09:14:56 [http-nio-8087-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 09:14:56 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 09:16:31 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-22 09:16:31 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, BearerTokenAuthenticationFilter, AuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-22 10:08:04 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 10:08:04 [http-nio-8087-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 10:08:12 [http-nio-8087-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 10:08:12 [http-nio-8087-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 10:08:54 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-22 10:08:54 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, BearerTokenAuthenticationFilter, AuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-22 10:08:56 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 10:08:57 [http-nio-8087-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 10:08:57 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 10:11:06 [http-nio-8087-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 10:11:06 [http-nio-8087-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 10:11:06 [http-nio-8087-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 10:11:24 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 10:11:24 [http-nio-8087-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 10:11:24 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 10:11:37 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 10:11:37 [http-nio-8087-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 10:11:37 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 10:11:46 [http-nio-8087-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 10:11:46 [http-nio-8087-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 10:11:46 [http-nio-8087-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 10:32:27 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-22 10:32:27 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, BearerTokenAuthenticationFilter, AuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-22 10:35:44 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 10:35:44 [http-nio-8087-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 10:35:44 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 16:19:42 [http-nio-8087-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 16:19:42 [http-nio-8087-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 16:19:42 [http-nio-8087-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 16:19:42 [http-nio-8087-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-06-22 16:19:42 [http-nio-8087-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 16:19:45 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 16:19:45 [http-nio-8087-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 16:19:45 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 16:19:45 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-06-22 16:19:45 [http-nio-8087-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 16:46:38 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 16:46:38 [http-nio-8087-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 16:46:38 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 16:46:38 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-06-22 16:46:38 [http-nio-8087-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 16:46:49 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 16:46:49 [http-nio-8087-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 16:46:49 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 16:46:49 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-06-22 16:46:49 [http-nio-8087-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 16:47:09 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 16:47:10 [http-nio-8087-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 16:47:10 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 16:47:10 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-06-22 16:47:10 [http-nio-8087-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 16:48:04 [http-nio-8087-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 16:48:04 [http-nio-8087-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 16:48:04 [http-nio-8087-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 16:48:04 [http-nio-8087-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-06-22 16:48:04 [http-nio-8087-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 18:02:17 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-22 18:02:17 [http-nio-8087-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-22 18:02:17 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-22 18:02:17 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /error
+2025-06-22 18:02:17 [http-nio-8087-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext

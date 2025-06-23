@@ -1,0 +1,118 @@
+2025-06-21 14:52:15 [main] INFO  o.r.s.r.RsuSecureAppApplication - Starting RsuSecureAppApplication using Java 17.0.15 with PID 36812 (D:\dev\mission\rsu\rsu-secure-app\build\classes\java\main started by pegue in D:\dev\mission\rsu\rsu-secure-app)
+2025-06-21 14:52:15 [main] INFO  o.r.s.r.RsuSecureAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-21 14:52:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-21 14:52:17 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2025-06-21 14:52:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2025-06-21 14:52:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-21 14:52:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-21 14:52:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-21 14:52:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2584 ms
+2025-06-21 14:52:18 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-06-21 14:52:19 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:products-db user=SA
+2025-06-21 14:52:19 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-06-21 14:52:19 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-21 14:52:19 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-06-21 14:52:19 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-06-21 14:52:19 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-21 14:52:19 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-21 14:52:21 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-21 14:52:21 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21 14:52:21 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-21 14:52:22 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-06-21 14:52:22 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-06-21 14:52:23 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-06-21 14:52:23 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-06-21 14:52:23 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 0 ResponseBodyAdvice
+2025-06-21 14:52:24 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:products-db'
+2025-06-21 14:52:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2025-06-21 14:52:24 [main] INFO  o.r.s.r.RsuSecureAppApplication - Started RsuSecureAppApplication in 9.625 seconds (process running for 14.112)
+2025-06-21 14:52:42 [http-nio-8087-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-21 14:52:42 [http-nio-8087-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-21 14:52:42 [http-nio-8087-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-06-21 14:52:42 [http-nio-8087-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-06-21 14:52:42 [http-nio-8087-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-06-21 14:52:42 [http-nio-8087-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@622e39d
+2025-06-21 14:52:42 [http-nio-8087-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@517fb2c3
+2025-06-21 14:52:42 [http-nio-8087-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-06-21 14:52:42 [http-nio-8087-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2025-06-21 14:52:43 [http-nio-8087-exec-1] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8080/realms/rsu-realm/protocol/openid-connect/certs
+2025-06-21 14:52:43 [http-nio-8087-exec-1] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2025-06-21 14:52:43 [http-nio-8087-exec-1] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-06-21 14:52:43 [http-nio-8087-exec-1] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json;charset=UTF-8"
+2025-06-21 14:52:43 [http-nio-8087-exec-1] INFO  SECURITY - AUTH - User: pegueo2000, Action: LOGIN, Result: SUCCESS, IP: 0:0:0:0:0:0:0:1, Timestamp: 2025-06-21T14:52:43.214545800Z
+2025-06-21 14:52:43 [http-nio-8087-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/products", parameters={}
+2025-06-21 14:52:43 [http-nio-8087-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.rsu.sec.rsusecureapp.web.ProductRestController#productsList(Authentication)
+2025-06-21 14:52:43 [http-nio-8087-exec-1] INFO  o.r.s.r.a.SecurityAuditInterceptor - Request - User: pegueo2000, Resource: /api/products, Method: GET
+2025-06-21 14:52:43 [http-nio-8087-exec-1] INFO  o.r.s.r.web.ProductRestController - Accès à tous les produits par l'utilisateur pegueo2000
+2025-06-21 14:52:43 [http-nio-8087-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-06-21 14:52:43 [http-nio-8087-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Product(id=521e2087-1fbe-41ef-ae5b-09c594ce684a, name=computer, price=2300.0, quantity=12), Product (truncated)...]
+2025-06-21 14:52:43 [http-nio-8087-exec-1] INFO  SECURITY - ACCESS - User: pegueo2000, Resource: /api/products, Method: GET, Result: 200, IP: 0:0:0:0:0:0:0:1, Timestamp: 2025-06-21T14:52:43.718407400Z
+2025-06-21 14:52:43 [http-nio-8087-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-06-21 14:59:31 [http-nio-8087-exec-2] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8080/realms/rsu-realm/protocol/openid-connect/certs
+2025-06-21 14:59:31 [http-nio-8087-exec-2] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2025-06-21 14:59:31 [http-nio-8087-exec-2] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-06-21 14:59:31 [http-nio-8087-exec-2] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json;charset=UTF-8"
+2025-06-21 14:59:31 [http-nio-8087-exec-2] INFO  SECURITY - AUTH - User: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjQWQxOUNIVW05cjJqZzVjWmF1dzk5ZWFBdng5VmFMTlZsOGJBMkZGdXBvIn0.eyJleHAiOjE3NTA1MTc2MjYsImlhdCI6MTc1MDUxNzMyNiwianRpIjoib25ydHJvOjU2NWMwYzBjLWQ0NGUtNDE1YS1iOGEyLTRjYWVlOGFlYTUzZiIsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9yZWFsbXMvcnN1LXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImRlMTNlODRhLTEwMjYtNGYzNi1iYmI4LTllYmIzMzJjNjljMiIsInR5cCI6IkJlYXJlciIsImF6cCI6InJzdS1hcHAtY2xpZW50Iiwic2lkIjoiYzA1ODZiNTctNDIxMS00YWM3LThjYjMtMTk4OTU5OWMxMzQ4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjQyMDAvKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1yc3UtcmVhbG0iLCJvZmZsaW5lX2FjY2VzcyIsIkFETUlOIiwidW1hX2F1dGhvcml6YXRpb24iLCJVU0VSIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoiUGVndWUganVkaWNhZWwgT1VFRFJBT0dPIiwicHJlZmVycmVkX3VzZXJuYW1lIjoicGVndWVvMjAwMCIsImdpdmVuX25hbWUiOiJQZWd1ZSBqdWRpY2FlbCIsImZhbWlseV9uYW1lIjoiT1VFRFJBT0dPIiwiZW1haWwiOiJwZWd1ZW8yMDAwQGdtYWlsLmNvbSJ9.WjWX2cLFlhCOjFtPZH2w0K9KlvFPD92dK2zlTAL6DGhOATVXAKmgyj-AHmTaY1L1TfGdvDVnyUfSSqK6nOfMQSrvjf7F30M2L7yUTy9_YIwZJmO236o2XGt4ZvMgIDR-l4u-F4prcCANbFQ3nUaq87-AZrzU-2IyGKfMFDwUwDE8fs1fWbKjgGT1R1Mk7tTbnc6e2mBamzQr1wwTnRVGkgOVkTBxa2DVyHnc2p8zp86a5m9EexnxsMBdVrqOiINYGEFiawCa1vgk0l9ysixzcIDBzff1is4sNqlhkNPfvs2j5Tk7Qun4uf95iyjK8AO2ekA6-g2Odg6uFC-42PkAMg, Action: LOGIN, Result: FAILURE: An error occurred while attempting to decode the Jwt: Jwt expired at 2025-06-21T14:53:46Z, IP: 0:0:0:0:0:0:0:1, Timestamp: 2025-06-21T14:59:31.496767100Z
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8080/realms/rsu-realm/protocol/openid-connect/certs
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.web.client.RestTemplate - Reading to [java.lang.String] as "application/json;charset=UTF-8"
+2025-06-21 15:19:08 [http-nio-8087-exec-1] INFO  SECURITY - AUTH - User: pegueo2000, Action: LOGIN, Result: SUCCESS, IP: 0:0:0:0:0:0:0:1, Timestamp: 2025-06-21T15:19:08.167916400Z
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/products", parameters={}
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.rsu.sec.rsusecureapp.web.ProductRestController#productsList(Authentication)
+2025-06-21 15:19:08 [http-nio-8087-exec-1] INFO  o.r.s.r.a.SecurityAuditInterceptor - Request - User: pegueo2000, Resource: /api/products, Method: GET
+2025-06-21 15:19:08 [http-nio-8087-exec-1] INFO  o.r.s.r.web.ProductRestController - Accès à tous les produits par l'utilisateur pegueo2000
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Product(id=521e2087-1fbe-41ef-ae5b-09c594ce684a, name=computer, price=2300.0, quantity=12), Product (truncated)...]
+2025-06-21 15:19:08 [http-nio-8087-exec-1] INFO  SECURITY - ACCESS - User: pegueo2000, Resource: /api/products, Method: GET, Result: 200, IP: 0:0:0:0:0:0:0:1, Timestamp: 2025-06-21T15:19:08.242722200Z
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-06-21 15:42:46 [main] INFO  o.r.s.r.RsuSecureAppApplication - Starting RsuSecureAppApplication using Java 17.0.15 with PID 2568 (D:\dev\mission\rsu\rsu-secure-app\build\classes\java\main started by pegue in D:\dev\mission\rsu\rsu-secure-app)
+2025-06-21 15:42:46 [main] INFO  o.r.s.r.RsuSecureAppApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-21 15:42:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-21 15:42:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interface.
+2025-06-21 15:42:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2025-06-21 15:42:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-21 15:42:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-21 15:42:49 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-21 15:42:49 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2803 ms
+2025-06-21 15:42:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-06-21 15:42:49 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:products-db user=SA
+2025-06-21 15:42:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-06-21 15:42:49 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-21 15:42:49 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-06-21 15:42:49 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-06-21 15:42:50 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-21 15:42:50 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-21 15:42:52 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-21 15:42:53 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21 15:42:53 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-21 15:42:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+2025-06-21 15:42:54 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-06-21 15:42:55 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-06-21 15:42:55 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-06-21 15:42:55 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 0 ResponseBodyAdvice
+2025-06-21 15:42:56 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:products-db'
+2025-06-21 15:42:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2025-06-21 15:42:56 [main] INFO  o.r.s.r.RsuSecureAppApplication - Started RsuSecureAppApplication in 11.631 seconds (process running for 13.269)
+2025-06-21 16:14:08 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m48s423ms351µs800ns).
+2025-06-21 17:10:58 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m56s332ms145µs700ns).
+2025-06-21 20:05:10 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h47m48s425ms841µs100ns).
+2025-06-21 20:31:45 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s163ms612µs700ns).
+2025-06-21 20:37:08 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m22s458ms639µs).
+2025-06-21 23:23:10 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h46m8s926ms175µs400ns).
+2025-06-21 23:30:58 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m17s543ms102µs200ns).
+2025-06-21 23:53:30 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m1s83ms535µs200ns).

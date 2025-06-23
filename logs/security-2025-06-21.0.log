@@ -1,0 +1,166 @@
+2025-06-21 14:52:23 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-21 14:52:23 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, BearerTokenAuthenticationFilter, AuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-06-21 14:52:42 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-21 14:52:43 [http-nio-8087-exec-1] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2025-06-21 14:52:43 [http-nio-8087-exec-1] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@b0a3c186, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[default-roles-rsu-realm, SCOPE_email, offline_access, ADMIN, uma_authorization, USER, SCOPE_profile]]
+2025-06-21 14:52:43 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-21 14:52:58 [http-nio-8087-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /h2-console/login.do?jsessionid=190bdd291d2a8d031a98c97cf3429136
+2025-06-21 14:52:58 [http-nio-8087-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:52:58 [http-nio-8087-exec-3] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:52:58 [http-nio-8087-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /h2-console/login.do?jsessionid=190bdd291d2a8d031a98c97cf3429136
+2025-06-21 14:52:58 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/stylesheet.css
+2025-06-21 14:52:58 [http-nio-8087-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:52:58 [http-nio-8087-exec-4] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:52:58 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/stylesheet.css
+2025-06-21 14:52:58 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/login.jsp?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:52:58 [http-nio-8087-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:52:58 [http-nio-8087-exec-5] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:52:58 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/login.jsp?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:52:58 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/background.gif
+2025-06-21 14:52:58 [http-nio-8087-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:52:58 [http-nio-8087-exec-6] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:52:58 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/background.gif
+2025-06-21 14:52:58 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2025-06-21 14:52:58 [http-nio-8087-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:52:58 [http-nio-8087-exec-7] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing POST /h2-console/login.do?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:53:00 [http-nio-8087-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-8] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured POST /h2-console/login.do?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:53:00 [http-nio-8087-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/header.jsp?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:53:00 [http-nio-8087-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-9] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/header.jsp?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:53:00 [http-nio-8087-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tables.do?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:53:00 [http-nio-8087-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-10] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tables.do?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:53:00 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/query.jsp?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:53:00 [http-nio-8087-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-2] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/query.jsp?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:53:00 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/help.jsp?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:53:00 [http-nio-8087-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-1] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/help.jsp?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:53:00 [http-nio-8087-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/icon_disconnect.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-3] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/icon_disconnect.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/icon_line.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-4] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/icon_line.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/icon_help.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/icon_history.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-5] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/icon_help.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-6] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/icon_history.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/icon_refresh.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-7] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/icon_refresh.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/icon_rollback.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-8] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/icon_rollback.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/icon_commit.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-9] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/icon_commit.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/icon_run.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-2] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/icon_run.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/icon_run_selected.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-1] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/icon_run_selected.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/icon_stop.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-2] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/icon_stop.gif
+2025-06-21 14:53:00 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree.js
+2025-06-21 14:53:00 [http-nio-8087-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:00 [http-nio-8087-exec-4] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:00 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree.js
+2025-06-21 14:53:01 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_plus.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-6] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_plus.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_database.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_minus.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-7] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_database.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_table.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_empty.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-5] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_minus.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-8] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_table.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-9] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_empty.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_column.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-1] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_column.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_users.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-3] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_folder.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_info.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-2] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_users.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_info.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-10] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_folder.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_type.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-4] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_index_az.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_index.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_type.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-7] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-6] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_index_az.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_index.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_view.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/tree_user.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-8] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-5] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:01 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_view.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/tree_user.gif
+2025-06-21 14:53:01 [http-nio-8087-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /favicon.ico
+2025-06-21 14:53:01 [http-nio-8087-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:01 [http-nio-8087-exec-9] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:07 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /h2-console/query.do?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:53:07 [http-nio-8087-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:07 [http-nio-8087-exec-6] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:07 [http-nio-8087-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /h2-console/query.do?jsessionid=1a8b890e844d724dcf272a9c52f95a05
+2025-06-21 14:53:07 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing GET /h2-console/table.js
+2025-06-21 14:53:07 [http-nio-8087-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-06-21 14:53:07 [http-nio-8087-exec-8] DEBUG o.s.s.w.s.SessionManagementFilter - Request requested invalid session id 2147D6D6C45DD0A1BCAF41B52A726C4F
+2025-06-21 14:53:07 [http-nio-8087-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured GET /h2-console/table.js
+2025-06-21 14:59:31 [http-nio-8087-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-21 14:59:31 [http-nio-8087-exec-2] DEBUG o.s.s.o.jwt.JwtTimestampValidator - Jwt expired at 2025-06-21T14:53:46Z
+2025-06-21 14:59:31 [http-nio-8087-exec-2] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Failed to authenticate since the JWT was invalid
+2025-06-21 14:59:31 [http-nio-8087-exec-2] DEBUG o.s.s.authentication.ProviderManager - Authentication failed with provider JwtAuthenticationProvider since An error occurred while attempting to decode the Jwt: Jwt expired at 2025-06-21T14:53:46Z
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/products
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.s.o.s.r.a.JwtAuthenticationProvider - Authenticated token
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.s.o.s.r.w.a.BearerTokenAuthenticationFilter - Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@783b49bb, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[default-roles-rsu-realm, SCOPE_email, offline_access, ADMIN, uma_authorization, USER, SCOPE_profile]]
+2025-06-21 15:19:08 [http-nio-8087-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/products
+2025-06-21 15:42:54 [main] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2025-06-21 15:42:55 [main] DEBUG o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, BearerTokenAuthenticationFilter, AuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
